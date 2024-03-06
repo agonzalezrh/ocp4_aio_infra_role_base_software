@@ -101,7 +101,7 @@
   - name: Prepare libvirt images storage VG
     lvg:
       vg: vg.libvirt
-      pvs: /dev/nvme0n1,/dev/nvme1n1
+      pvs: /dev/nvme1n1
     when: result.stat.exists
 
   - name: Prepare libvirt images storage VG
