@@ -115,7 +115,7 @@
       vg: vg.libvirt
       lv: lvimages
       size: 10%FREE
-      opts: -i 2 -I 4
+      opts: -i 1 -I 2
 
   - name: Create filesystem on libvirt storage LV
     filesystem:
