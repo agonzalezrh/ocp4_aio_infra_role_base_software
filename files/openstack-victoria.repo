@@ -2,8 +2,8 @@
 name=Extra Packages for Enterprise Linux $releasever - $basearch
 # It is much more secure to use the metalink, but if you wish to use a local mirror
 # place its address here.
-mirrorlist=http://mirrorlist.centos.org/?release=8-stream&arch=x86_64&repo=cloud-openstack-victoria
-#baseurl=http://ftp.pbone.net/mirror/ftp.centos.org/8-stream/cloud/x86_64/openstack-victoria/
+#mirrorlist=http://mirrorlist.centos.org/?release=8-stream&arch=x86_64&repo=cloud-openstack-victoria
+mirrorlist=http://ftp.pbone.net/mirror/ftp.centos.org/8-stream/cloud/x86_64/openstack-victoria/
 enabled=1
 gpgcheck=0
 module_hotfixes=1
